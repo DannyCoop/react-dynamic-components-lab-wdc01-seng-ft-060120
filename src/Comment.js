@@ -1,4 +1,5 @@
 import React from 'react'
+import BlogPost from './BlogPost'
 
 function Comment() {
   return(
@@ -7,3 +8,5 @@ function Comment() {
     </div>
     )
 }
+
+export default Comment
