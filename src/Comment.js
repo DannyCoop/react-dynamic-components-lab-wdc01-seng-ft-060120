@@ -1,1 +1,9 @@
-//your code here
+import React from 'react'
+
+function Comment() {
+  return(
+    <div>
+    
+    </div>
+    )
+}
