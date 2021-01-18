@@ -1,12 +1,9 @@
-import React from 'react'
-import BlogPost from './BlogPost'
+import React, {Component} from 'react'
 
-function Comment() {
-  return(
+export default class Comment extends Component {
+  render(
     <div className="comment">
-    
+        {this.props.commentText}
     </div>
     )
 }
-
-export default Comment
