@@ -3,7 +3,7 @@ import BlogPost from './BlogPost'
 
 function Comment() {
   return(
-    <div>
+    <div className="comment">
     
     </div>
     )
